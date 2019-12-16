@@ -48,7 +48,7 @@ Together with `iia_id`, uniquely identifies the agreement copy.
 
 ### `iia_id` (required)
 
-Partner's identifier of the IIA which has been approved. **Note: ** this is NOT the ID assigned
+Partner's identifier of the IIA which has been approved. **Note:** this is NOT the ID assigned
 by the notifier (approving HEI), but by the owner of the copy which has been approved.
 
 
