@@ -82,9 +82,8 @@ Keep in mind that...
 --------------------
 
 It is NOT guaranteed that all notifications will be delivered to you promptly.
-Some notifications may also **not reach you at all**. Also, not every server
-sends such notifications (look for `<sends-notifications/>` element in
-[IIAs Approval API][iias-approval-api]'s manifest entries to get a clue which servers do).
+Some notifications may also **not reach you at all**, e.g. due to
+implementation errors on the sending institution's server.
 
 
 [bad-cnr-request]: https://github.com/erasmus-without-paper/ewp-specs-architecture#bad-cnr-request
