@@ -46,10 +46,15 @@ Identifier of the HEI which is the owner of the copy of the agreement, that has 
 Together with `iia_id`, uniquely identifies the agreement copy.
 
 
-### `iia_id` (required)
+### `owner_hei_iia_id` (required)
 
 Partner's identifier of the IIA which has been approved. **Note:** this is NOT the ID assigned
 by the notifier (approving HEI), but by the owner of the copy which has been approved.
+
+### `approving_hei_iia_id` (required)
+
+Identifier of the IIA in the partner that is sending the approval. **Note:** this is the ID assigned
+by the notifier (approving HEI).
 
 
 Security
