@@ -16,6 +16,9 @@ the partners to listen for approvals of their copies of the IIAs.
 CNR stands for Change Notification Receiver. For a detailed introduction on how
 CNR APIs work, please read [this page][cnr-intro].
 
+**Clients and servers MUST NOT use IIA Approval CNR API for agreements
+that are not properly mapped (do not provide partner agreement ID).**
+
 
 Request method
 --------------
