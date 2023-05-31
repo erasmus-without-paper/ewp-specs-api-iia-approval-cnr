@@ -34,21 +34,6 @@ Parameters MUST be provided in the regular `application/x-www-form-urlencoded`
 format.
 
 
-### `approving_hei_id` (required)
-
-Identifier of the HEI which has recently approved the partner's copy of the IIA
-and is now sending the notification about this event.
-
-Server implementers SHOULD verify if the request is signed with a proper client
-certificate bound to this HEI.
-
-
-### `owner_hei_id` (required)
-
-Identifier of the HEI which is the owner of the copy of the agreement, that has been approved.
-Together with `iia_id`, uniquely identifies the agreement copy.
-
-
 ### `iia_id` (required)
 
 Partner's identifier of the IIA which has been approved. **Note:** this is NOT the ID assigned
