@@ -5,6 +5,12 @@ This document describes all the changes made to the *Interinstitutional Agreemen
 document, starting from its first beta draft version.
 
 
+2.0.0
+-----
+
+* Removed hei_id parameters.
+
+
 1.1.0
 -----
 
